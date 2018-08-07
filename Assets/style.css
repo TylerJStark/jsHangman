@@ -1,0 +1,37 @@
+/* This adds the cutsom Galactica font */
+@font-face {
+    font-family: Galactica;
+    src: url(BATTLEST.TTF);
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: clear;
+  }
+
+  body {
+    background-image: url(galacticaBack.jpg);
+    height: 100%;
+  }
+
+h1 {
+    font-family: Galactica;
+    text-align: center;
+    font-size: 75px;
+    color: grey;
+}
+
+h3 {
+    color: grey;
+    text-align: center;
+    font-size: 40px;
+    font-family: Galactica;
+}
+
+.stats {
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+    font-family: Galactica;
+}
