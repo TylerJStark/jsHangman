@@ -9,23 +9,25 @@
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
 
 </head>
-  <body>
+    <body>
 
-    <div class="container">
+        <div class="container">
+            <!-- Background Image -->
+            <img id="pew" src="Assets/galacticaShip.png" alt="pew">
 
-        <p class="title">Galactica Hangman</p>
+            <p class="title">Galactica Hangman</p>
 
-        <p class="rest">Word To Guess</p>
-        <p class="rest">Letters Guessed</p>
-        <p class="rest">Chances Left</p>
-        
-        <div class='parent'>
-            <div class='stats'>Wins: </div>
-            <div class='stats'>Losses: </div>
+            <p class="rest">Word To Guess:<br><br><span id="wtg"></span></p>
+            <p class="rest">Letters Guessed:<br><br><span id="letters"></span></p>
+            <p class="rest">Lives:<br><br><span id="lives"></span></p>
+            
+            <div class='parent'>
+                    <p class="win">Win:<span id="win"></span></p>
+                    <p class="loss">Loss:<span id="loss"></span></p>
+            </div>
+
         </div>
 
-    </div>
-
-  </body>
-
+    </body>
+    <script src="Assets/operations.js"></script>
 </html>
